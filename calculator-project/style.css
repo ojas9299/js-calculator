@@ -1,0 +1,82 @@
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 90%; /* Adjust the width as needed for mobile devices */
+        margin: 4% auto; /* Center the container horizontally */
+    }
+}
+
+    #display {
+        width: 100%;
+        margin: 10px 0;
+        padding: 11px 0;
+    }
+
+    #operations {
+        margin: 20px 0;
+    }
+    
+    #equals {
+        width: 100%;
+    }
+
+
+/* Media query for medium-sized screens (min-width: 769px and max-width: 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #container {
+        width: 60%; /* Adjust the width for medium-sized screens */
+    }
+}
+
+/* Media query for larger screens (min-width: 1025px) */
+@media only screen and (min-width: 1025px) {
+    #container {
+        width: 40%; /* Adjust the width for larger screens */
+    }
+}
+
+
+#container {
+    height: 550px;
+    width: 400px;
+    background-color: #808080;
+    margin: 5% auto;
+    padding-top: 5px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#display {
+    color: #ffa31a;
+    height: 60px;
+    width: 190px;
+    background-color: #292929;
+    margin: 10px 0px 0px 9%;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 40px;
+    padding: 11px 0px 0px 123px;
+    border: solid #292929 7px;
+    overflow: hidden;
+}
+
+#operations {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 40px;
+    gap: 30px;
+    margin: 20px 0px 0px 31px  
+}
+
+.add {
+    color: #ffa31a;
+    background-color: #292929;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+}
+
+#equals {
+    color: #1b1b1b;
+    background-color: #ffa31a;
+    border-radius: 30px;
+    width: 330px}
